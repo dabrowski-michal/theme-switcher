@@ -1,0 +1,115 @@
+.navbar {
+  height: 70px;
+  width: 100%;
+  background: black;
+  color: white;
+}
+
+.navbar-nav {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+li a::before {
+  content: '';
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+footer {
+  background: var(--black);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+header {
+  padding: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  height: 400px;
+  background: var(--header-color);
+  color: var(--header-text);
+  -webkit-clip-path: polygon(50% 0%, 100% 0%, 100% 65%, 50% 100%, 0% 65%, 0 0);
+          clip-path: polygon(50% 0%, 100% 0%, 100% 65%, 50% 100%, 0% 65%, 0 0);
+}
+
+:root {
+  --spotify-dark-green: #1db954;
+  --spotify-light-green: #1ed760;
+  --white: #ffffff;
+  --grey0: #f1f1f1;
+  --grey1: #9fa0a9;
+  --grey2: #757575;
+  --grey3: #4b4b4b;
+  --grey4: #303030;
+  --grey5: #1d1d1d;
+  --black: #000000;
+}
+
+.dark-theme {
+  background-color: #1db954;
+}
+
+.light-theme {
+  background-color: red;
+}
+
+.eco {
+  --island-green: #2BAE66FF;
+  --snow-white: #FCF6F5FF;
+}
+
+.evil {
+  --cherry-tomato: #E94B3CFF;
+  --bat-black: #2D2926FF;
+}
+
+.summer {
+  --blue-atoll: #00B1D2FF;
+  --vibrant-yellow: #FDDB27FF;
+}
+
+.spoti {
+  --spotify-dark-green: #1db954;
+  --spotify-light-green: #1ed760;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-transition: 500ms ease-in-out, color 1000ms ease-in-out;
+  transition: 500ms ease-in-out, color 1000ms ease-in-out;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+main {
+  padding: 40px;
+}
+/*# sourceMappingURL=main.css.map */

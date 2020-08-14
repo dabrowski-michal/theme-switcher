@@ -1,0 +1,61 @@
+@import "./variables";
+
+
+$themes: (
+    light-theme: (
+
+    ),
+    dark-theme: (
+
+    ),
+    spoti-theme: (
+
+    )
+    summer-theme: (
+
+    )
+);
+/*
+
+:root{
+    --spotify-dark-green: #1db954;
+    --spotify-light-green: #1ed760;
+    --white: #ffffff;
+    --grey0: #f1f1f1;
+    --grey1: #9fa0a9;
+    --grey2: #757575;
+    --grey3: #4b4b4b;
+    --grey4: #303030;
+    --grey5: #1d1d1d;
+    --black: #000000; 
+}
+
+.dark-theme{
+    background-color: #1db954;
+}
+
+.light-theme{
+    background-color: red;
+}
+
+
+.eco{
+    --island-green: #2BAE66FF;
+    --snow-white: #FCF6F5FF;
+}
+
+.evil{
+    --cherry-tomato: #E94B3CFF;
+    --bat-black: #2D2926FF;
+}
+
+.summer{
+    --blue-atoll: #00B1D2FF;
+    --vibrant-yellow: #FDDB27FF;
+}
+
+.spoti{
+    --spotify-dark-green: #1db954;
+    --spotify-light-green: #1ed760;
+}
+

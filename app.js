@@ -1,22 +1,28 @@
-const darkButton = document.getElementById('dark');
 const lightButton = document.getElementById('light');
+const darkButton = document.getElementById('dark');
+const spotiButton = document.getElementById('spoti');
+const summerButton = document.getElementById('summer');
 
-const logo = document.getElementById('logo');
 const body = document.body;
+const header = document.getElementById("header");
 
-const themes = ['light','dark', 'summer', 'spoti']
+const changeTheme = (themeClassName) =>{
+    body.className = themeClassName;
+};
 
-const changeTheme = () => {
-
-}
-
-
-darkButton.onclick = () => {
-    body.classList.replace('light', 'dark');
-    logo.src = "./logos/logo-dark.svg";
-}
 
 lightButton.onclick = () => {
-    body.classList.replace('dark', 'light');
-    logo.src = "./logos/logo-light.svg";
+    changeTheme("light-theme");
+}
+
+darkButton.onclick = () => {
+    changeTheme("dark-theme");
+}
+
+spotiButton.onclick = () => {
+    changeTheme("spoti");
+}
+
+summerButton.onclick = () =>{
+    changeTheme("summer");
 }
